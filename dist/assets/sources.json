@@ -1,0 +1,22 @@
+{
+  "cielo-lio.png": {
+    "url": "https://www.cielo.com.br/assets_cielo/product/compact/thumb_lio_front@2x.png",
+    "source_page": "https://www.cielo.com.br/assets_cielo/product/compact/",
+    "note": "Official Cielo transparent white LIO terminal; 350x350."
+  },
+  "stone-ecosystem.png": {
+    "url": "https://martech-web-cdn.stone.com.br/image-service/incoming/stone/1ff53115-1fbe-478d-9479-fbec004b7078/celularmaquininha-desktop.png?w=720&h=667",
+    "source_page": "https://www.stone.com.br/maquina-de-cartao",
+    "note": "Official current marketing image; should be described as illustrative product image, not archival work screenshot."
+  },
+  "sua-musica.webp": {
+    "url": "https://flutter.dev/assets/logo.2254fd505501512d3e1561ed0769b95e.webp",
+    "source_page": "https://flutter.dev/showcase/sua-musica",
+    "note": "Sua Musica logo from official Flutter showcase."
+  },
+  "sua-musica-showcase.png": {
+    "url": "https://flutter.dev/assets/case_study_card.8bee2052560ed896c32755aa596e8080.png",
+    "source_page": "https://flutter.dev/showcase",
+    "note": "Real app screenshots from Flutter showcase card dated November 5, 2021."
+  }
+}
