@@ -54,7 +54,7 @@ test('root is English without JS; locale assets and language links resolve',()=>
 });
 
 test('project Pages base path preserves locale and query/hash',()=>{
-  assert.equal(visit({pathname:'/portfolio-website/',basePath:'/portfolio-website/',languages:['pt-BR']}).redirect,'/portfolio-website/pt/?ref=portfolio#projetos');
-  assert.equal(visit({pathname:'/portfolio-website/index.html',basePath:'/portfolio-website/'}).redirect,'/portfolio-website/en/?ref=portfolio#projetos');
-  assert.equal(visit({pathname:'/portfolio-website/es/',basePath:'/portfolio-website/'}).redirect,null);
+  assert.equal(visit({pathname:'/portfolio/',basePath:'/portfolio/',languages:['pt-BR']}).redirect,'/portfolio/pt/?ref=portfolio#projetos');
+  assert.equal(visit({pathname:'/portfolio/index.html',basePath:'/portfolio/'}).redirect,'/portfolio/en/?ref=portfolio#projetos');
+  assert.equal(visit({pathname:'/portfolio/es/',basePath:'/portfolio/'}).redirect,null);
 });

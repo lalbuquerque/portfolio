@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Build localized site
-        run: python3 scripts/build_pages.py --base-path /portfolio-website --origin https://lalbuquerque.github.io
+        run: python3 scripts/build_pages.py --base-path /portfolio --origin https://lalbuquerque.github.io
       - name: Validate scripts and language routing
         run: |
           node --check dist/app.js

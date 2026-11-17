@@ -2,13 +2,13 @@
 
 Portfolio estático em português, inglês e espanhol.
 
-Endereço do GitHub Pages: https://lalbuquerque.github.io/portfolio-website/
+Endereço do GitHub Pages: https://lalbuquerque.github.io/portfolio/
 
 ## Publicação automática
 
 Cada push na branch `main` executa `.github/workflows/deploy-pages.yml`:
 
-1. Gera as páginas traduzidas e prepara os caminhos para `/portfolio-website/`.
+1. Gera as páginas traduzidas e prepara os caminhos para `/portfolio/`.
 2. Verifica a sintaxe JavaScript, a seleção de idioma e os links/arquivos locais.
 3. Envia o artefato estático para GitHub Pages.
 

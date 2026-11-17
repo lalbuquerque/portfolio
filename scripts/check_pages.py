@@ -3,7 +3,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlparse, unquote
 ROOT=Path(__file__).resolve().parents[1]/'_site'
-BASE='/portfolio-website'
+BASE='/portfolio'
 class Links(HTMLParser):
     def __init__(self):
         super().__init__(); self.links=[]

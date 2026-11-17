@@ -7,7 +7,7 @@ import subprocess
 import sys
 ROOT = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
-parser.add_argument('--base-path', default='/portfolio-website')
+parser.add_argument('--base-path', default='/portfolio')
 parser.add_argument('--origin', default='https://lalbuquerque.github.io')
 args = parser.parse_args()
 base = '/' + args.base_path.strip('/') if args.base_path.strip('/') else ''
