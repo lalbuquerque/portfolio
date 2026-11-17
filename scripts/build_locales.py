@@ -4,6 +4,8 @@ import re
 ROOT=Path(__file__).resolve().parents[1]
 # Portuguese | English | Spanish. Longest matches first; replacements are single-pass.
 rows='''
+Imagens oficiais do aplicativo SanarFlix|Official SanarFlix app images|Imágenes oficiales de la aplicación SanarFlix
+Imagens oficiais do aplicativo Jusbrasil|Official Jusbrasil app images|Imágenes oficiales de la aplicación Jusbrasil
 Android Engineer · Pagamentos & Backend|Android Engineer · Payments & Backend|Ingeniero Android · Pagos & Backend
 Backend & integrações|Backend & integrations|Backend e integraciones
 Venturus · Serviços que conectam produtos e plataformas.|Venturus · Services connecting products and platforms.|Venturus · Servicios que conectan productos y plataformas.

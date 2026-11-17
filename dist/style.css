@@ -8,3 +8,13 @@
 @media(max-width:1000px){.nav{gap:16px}.nav nav{gap:18px}.identity .identity-name{display:none}.contact-nav{padding:10px}.language-switch{padding-left:10px}}
 @media(max-width:650px){.nav{flex-wrap:wrap;height:auto;min-height:100px;padding-top:15px;padding-bottom:15px;gap:12px}.nav nav{gap:13px}.nav .identity{font-size:30px}.identity>span:first-child{font-size:25px}.language-switch{width:100%;justify-content:flex-end;border-left:0;padding:0}.language-switch a{padding:6px 10px}.backend{padding-bottom:45px}.backend-grid{grid-template-columns:1fr;gap:12px;margin-top:25px}.backend-grid h3{font-size:22px}.hero h1{font-size:clamp(48px,12vw,78px)}}
 .backend-project{background:#e4e0ef}.backend-project .node{border-color:#ada0be;background:#f4f0f8}.backend-project .node:first-child{background:#4a3b60;color:#f4f0f8}.backend-project .wire{border-color:#ada0be}.filters{flex-wrap:wrap}
+
+/* Official app imagery, shared by project cards and detail dialogs. */
+.sanar{background:#f3dcda}.jus{background:#d7e9e2}
+.app-gallery{display:flex;align-items:center;justify-content:center;gap:22px;height:100%;width:100%;padding:46px 44px 40px}
+.project-image .app-gallery img,.detail-hero .app-gallery img{height:100%;width:auto;max-width:44%;object-fit:contain;border-radius:10px;box-shadow:0 14px 26px #142b2829;transform:rotate(-6deg)}
+.project-image .app-gallery img:nth-child(2),.detail-hero .app-gallery img:nth-child(2){transform:rotate(6deg) translateY(8px)}
+.project-trigger:hover .project-image .app-gallery img{transform:translateY(-5px) rotate(-3deg)}
+.project-trigger:hover .project-image .app-gallery img:nth-child(2){transform:translateY(3px) rotate(3deg)}
+.detail-hero .app-gallery{padding:24px 32px 30px}
+@media(max-width:600px){.app-gallery{gap:16px;padding:43px 30px 39px}.detail-hero .app-gallery{padding:18px 24px 24px}}
